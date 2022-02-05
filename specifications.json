@@ -1,0 +1,13 @@
+{
+    "destination":"C:\\Podcast Archive",
+    "podcasts": [
+        {
+            "link":"https://feeds.simplecast.com/BqbsxVfO",
+            "includeNotes":true
+        },
+        {
+            "link":"http://feed.songexploder.net/SongExploder",
+            "includeNotes":true
+        }
+    ]
+}
