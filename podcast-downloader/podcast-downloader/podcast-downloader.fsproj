@@ -15,6 +15,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="ContentType.fs" />
     <Compile Include="PodcastDownloader.fs" />
     <Compile Include="SpecificationFile.fs" />
     <Compile Include="Program.fs" />
@@ -22,7 +23,6 @@
 
   <ItemGroup>
     <PackageReference Include="FSharp.Data" Version="4.2.7" />
-    <PackageReference Include="MediaTypeMap" Version="2.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 

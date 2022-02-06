@@ -3,11 +3,13 @@
     "podcasts": [
         {
             "link":"https://feeds.simplecast.com/BqbsxVfO",
-            "includeNotes":true
+            "includeNotes":true,
+            "dateRange":"AllTime"
         },
         {
             "link":"http://feed.songexploder.net/SongExploder",
-            "includeNotes":true
+            "includeNotes":true,
+            "dateRange":"2021/05/12-2022/01/05"
         }
     ]
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aaron\\Downloads\\podcast-downloader\\podcast-downloader\\podcast-downloader.fsproj": {}
+    "C:\\Users\\aaron\\My Drive\\Side Projects\\Programming Projects\\Podcast Downloader\\podcast-downloader\\podcast-downloader\\podcast-downloader.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\aaron\\Downloads\\podcast-downloader\\podcast-downloader\\podcast-downloader.fsproj": {
+    "C:\\Users\\aaron\\My Drive\\Side Projects\\Programming Projects\\Podcast Downloader\\podcast-downloader\\podcast-downloader\\podcast-downloader.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aaron\\Downloads\\podcast-downloader\\podcast-downloader\\podcast-downloader.fsproj",
+        "projectUniqueName": "C:\\Users\\aaron\\My Drive\\Side Projects\\Programming Projects\\Podcast Downloader\\podcast-downloader\\podcast-downloader\\podcast-downloader.fsproj",
         "projectName": "podcast-downloader",
-        "projectPath": "C:\\Users\\aaron\\Downloads\\podcast-downloader\\podcast-downloader\\podcast-downloader.fsproj",
+        "projectPath": "C:\\Users\\aaron\\My Drive\\Side Projects\\Programming Projects\\Podcast Downloader\\podcast-downloader\\podcast-downloader\\podcast-downloader.fsproj",
         "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aaron\\Downloads\\podcast-downloader\\podcast-downloader\\obj\\",
+        "outputPath": "C:\\Users\\aaron\\My Drive\\Side Projects\\Programming Projects\\Podcast Downloader\\podcast-downloader\\podcast-downloader\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,11 +49,6 @@
             "FSharp.Data": {
               "target": "Package",
               "version": "[4.2.7, )",
-              "generatePathProperty": true
-            },
-            "MediaTypeMap": {
-              "target": "Package",
-              "version": "[2.1.0, )",
               "generatePathProperty": true
             },
             "Newtonsoft.Json": {

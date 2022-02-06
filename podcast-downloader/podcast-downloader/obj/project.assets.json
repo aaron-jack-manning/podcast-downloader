@@ -71,15 +71,6 @@
           "lib/netstandard2.0/FSharp.Data.dll": {}
         }
       },
-      "MediaTypeMap/2.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/net40/MimeTypeMap.dll": {}
-        },
-        "runtime": {
-          "lib/net40/MimeTypeMap.dll": {}
-        }
-      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -152,18 +143,6 @@
         "typeproviders/fsharp41/netstandard2.0/FSharp.Data.DesignTime.dll"
       ]
     },
-    "MediaTypeMap/2.1.0": {
-      "sha512": "o0Q01zOu4AkaDDbOQdwCsWuOoXlPGzqyl1j8ABeZJy/xsMm1U96qv/qx2X8sfyZNBY+94OaAPYCHn/1D78/cGg==",
-      "type": "package",
-      "path": "mediatypemap/2.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/MimeTypeMap.dll",
-        "mediatypemap.2.1.0.nupkg.sha512",
-        "mediatypemap.nuspec"
-      ]
-    },
     "Newtonsoft.Json/13.0.1": {
       "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "type": "package",
@@ -196,7 +175,6 @@
     "net6.0": [
       "FSharp.Core >= 6.0.1",
       "FSharp.Data >= 4.2.7",
-      "MediaTypeMap >= 2.1.0",
       "Newtonsoft.Json >= 13.0.1"
     ]
   },
@@ -207,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aaron\\Downloads\\podcast-downloader\\podcast-downloader\\podcast-downloader.fsproj",
+      "projectUniqueName": "C:\\Users\\aaron\\My Drive\\Side Projects\\Programming Projects\\Podcast Downloader\\podcast-downloader\\podcast-downloader\\podcast-downloader.fsproj",
       "projectName": "podcast-downloader",
-      "projectPath": "C:\\Users\\aaron\\Downloads\\podcast-downloader\\podcast-downloader\\podcast-downloader.fsproj",
+      "projectPath": "C:\\Users\\aaron\\My Drive\\Side Projects\\Programming Projects\\Podcast Downloader\\podcast-downloader\\podcast-downloader\\podcast-downloader.fsproj",
       "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aaron\\Downloads\\podcast-downloader\\podcast-downloader\\obj\\",
+      "outputPath": "C:\\Users\\aaron\\My Drive\\Side Projects\\Programming Projects\\Podcast Downloader\\podcast-downloader\\podcast-downloader\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -251,11 +229,6 @@
             "version": "[4.2.7, )",
             "generatePathProperty": true
           },
-          "MediaTypeMap": {
-            "target": "Package",
-            "version": "[2.1.0, )",
-            "generatePathProperty": true
-          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )",
@@ -280,17 +253,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'MediaTypeMap 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "MediaTypeMap",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

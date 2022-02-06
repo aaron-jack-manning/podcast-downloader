@@ -12,20 +12,23 @@ To run the program, first clone this repository, then open the `specifications.j
     "podcasts": [
         {
             "link":"https://feeds.simplecast.com/BqbsxVfO",
-            "includeNotes":true
+            "includeNotes":true,
+            "dateRange":"AllTime"
         },
         {
             "link":"http://feed.songexploder.net/SongExploder",
-            "includeNotes":true
+            "includeNotes":true,
+            "dateRange":"2021/05/12-2022/01/05"
         }
     ]
 }
 ```
 
-Set the `destination` field to an empty folder where you wish for the podcast episodes to be saved. `podcasts` then specifies the podcasts to download. The `link` field is a link to the RSS feed for the podcast to download. If `includeNotes` is set to true then for each episode a text file will also be created with the show notes (if they exist).
+Here are definitions and specifications for each of the fields:
 
-Then just run `application/podcast-downloader.exe`.
+- `destination` should be the path to an empty folder where you wish for the podcast episodes to be downloaded to.
+- `link` specifies the RSS feed for a given podcast.
+- `includeNotes` determines if a `.txt` file should be created with the show notes (if they exist).
+- `dateRange` specifies the range of publish dates to download. These should be formatted as "YYYY/MM/DD-YYYY/MM/DD" (an example is shown above) or as "AllTime" to remove date filtering. 
 
-# Planned Changes
-
-- Option to download only between a supplied date range
+After specifying the above data in the file, just run `application/podcast-downloader.exe`.
