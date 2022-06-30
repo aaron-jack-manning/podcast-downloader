@@ -31,7 +31,7 @@ Here are definitions and specifications for each of the fields:
 - `includeNotes` determines if a `.txt` file should be created with the show notes (if they exist).
 - `dateRange` specifies the range of publish dates to download. These should be formatted as "YYYY/MM/DD-YYYY/MM/DD" (an example is shown above) or as "AllTime" to remove date filtering. 
 
-After specifying the above data in the file, just run `application/podcast-downloader.exe`.
+After specifying the above data in the file, just run `dotnet build` and call the produced executable from the directory with the specification file.
 
 ## Resources
 
